@@ -78,7 +78,7 @@ def trans_bv(bvid):
     else:
         # 如果请求不成功，输出错误信息
         print(response.text)
-        return None, None
+        return
 
     
 def hot_video(maxcnt=None):
